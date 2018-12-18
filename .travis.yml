@@ -6,7 +6,7 @@ services:
   - docker
 
 script:
-  - docker run --rm julia julia -E VERSION
+  - docker run --rm nvidia/cuda env
 
 notifications:
   email: false
